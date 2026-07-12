@@ -1,0 +1,3 @@
+1003,Burak Demir,Software Engineering,3.92
+1001,Furkan Yilmaz,Software Engineering,3.85
+1002,Zekeriya Kaya,Computer Engineering,3.4

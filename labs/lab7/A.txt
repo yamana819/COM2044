@@ -1,0 +1,10 @@
+Reflection Questions Answers
+
+1. Why is it better to define PaymentProcessor as an interface instead of a base class?
+Answer: Using an interface acts as a clear rulebook for classes to follow. Because Java does not allow a class to inherit from multiple parent classes at the same time, using an interface gives our payment classes the freedom to extend another class later if necessary. It also creates a flexible design where the main program only cares about the required methods, not the specific object types.
+
+2. What advantages does the factory method pattern bring in terms of extensibility?
+Answer: The Factory Method keeps all the object creation steps in a single, organized class. This makes the system very easy to expand. For example, if we need to add a new payment type later, we just create a new processor class and update the factory. We don't have to change the main program's code at all, which is a great example of the Open/Closed Principle.
+
+3. How does exception handling improve program robustness and user experience?
+Answer: Exception handling stops the program from simply crashing and showing long, confusing red error lines when something goes wrong. Instead of stopping completely when a user types an invalid amount or a wrong payment type, the program catches the error. It then shows a simple, easy-to-understand warning message and keeps running normally.
